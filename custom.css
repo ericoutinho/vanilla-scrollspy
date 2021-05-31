@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+body {
+    padding-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.menu {
+    display: flex;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: darkslategray;
+}
+
+.menu a {
+    display: inline-block;
+    color: aliceblue;
+}
+
+.menu a.active {
+    color: red;
+}
+
+.menu a:not(:last-of-type) {
+    margin-right: 1rem;
+}
